@@ -1,0 +1,29 @@
+.weather {
+    border-radius: 1rem;
+    border: 1px solid var(--light-pop-boder, rgba(255, 255, 255, 0.15));
+    background: #121212; 
+    color: white;
+    height: 300px;
+}
+.L{
+    position: relative;
+    left: 97px;
+    bottom: 22px;
+}
+.A{
+    position: relative;
+    top: 100px;
+}
+.T{
+    position: relative;
+    left: 120px;
+    top: 75px;
+}
+.W{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+.card{
+    width: 150px;
+}
