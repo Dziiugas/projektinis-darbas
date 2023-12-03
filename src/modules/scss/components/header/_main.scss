@@ -27,3 +27,15 @@
 .card{
     width: 150px;
 }
+
+.week {
+    width: 100px;
+    border-radius: 1rem;
+    border: 1px solid var(--light-pop-boder, rgba(255, 255, 255, 0.15));
+    background: #d86b6b; 
+    color: white;
+    height: 600px;
+    position: relative;
+    left: 800px;
+
+}

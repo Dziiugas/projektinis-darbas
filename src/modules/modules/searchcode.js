@@ -13,7 +13,10 @@ document.querySelector('form').addEventListener('submit',(e)=>{
     .then(()=>document.querySelector('.L').textContent=searchresponse.forecastTimestamps[0]['forecastTimeUtc'])
     .then(()=>console.log(searchresponse.forecastTimestamps[0]['relativeHumidity']))
     .then(()=>document.querySelector('.A').textContent=searchresponse.forecastTimestamps[0]['relativeHumidity'])
+    
 })
 }
+
+
 
 export default searchcode
